@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this research note, please cite it using this metadata."
+title: "Causal Self: Constraint Computation, Causal Self-Models, and the Geometry of Inference"
+type: article
+authors:
+  - family-names: Miliaresis
+    given-names: Yiannis
+repository-code: "https://github.com/pikos-apikos/causal-self"
+url: "https://github.com/pikos-apikos/causal-self"
+license: CC-BY-SA-4.0
+version: 0.1.0
+date-released: 2026-09-05
+abstract: >-
+  A research hypothesis and experimental program asking whether structural
+  causal self-models reduce inference cost by constraining causal uncertainty
+  and the admissible state space.
+keywords:
+  - causal self-model
+  - constraint computation
+  - agency
+  - provenance
+  - metastability
+  - inference geometry

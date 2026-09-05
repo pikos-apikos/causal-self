@@ -325,8 +325,8 @@ Because a vector has no intrinsic scalar ordering, the experiment must
 preregister one scalar primary outcome $J$ (for example, recovery steps) or a
 fully specified scalar composite derived from $\mathbf{K}$. Let $A_H,A_L$
 denote high and low ambiguity, and let $\epsilon_C,\epsilon_I$ denote corrupted
-and intact causal-self integrity. The main prediction is the positive
-difference-in-differences interaction:
+and intact causal-self integrity. The main prediction is a positive factorial
+interaction contrast:
 
 $$
 \boxed{
@@ -406,8 +406,7 @@ than merely descriptive metadata.
 
 ## One-line thesis
 
-> **Intelligence may depend not only on computing over state, but on constructing
-> the constraints that make state identifiable.**
+> **Intelligence may depend on the structure that makes distinctions possible.**
 
 The original philosophical question remains:
 
@@ -423,7 +422,8 @@ comes first.
 ## Related foundations
 
 These references establish nearby ideas; they do not imply that the present
-hypothesis follows from them.
+hypothesis follows from them. See [RELATED_WORK.md](RELATED_WORK.md) for the
+nearest conceptual neighbors and the proposed boundary of the contribution.
 
 1. Stephen A. Cook, “The Complexity of Theorem-Proving Procedures,” *STOC '71*,
    1971. <https://doi.org/10.1145/800157.805047>

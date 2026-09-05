@@ -8,12 +8,13 @@ authors:
 repository-code: "https://github.com/pikos-apikos/causal-self"
 url: "https://github.com/pikos-apikos/causal-self"
 license: CC-BY-SA-4.0
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-09-05
 abstract: >-
   A research hypothesis and experimental program asking whether structural
-  causal self-models reduce inference cost by constraining causal uncertainty
-  and the admissible state space.
+  causal self-models reduce inference cost under ambiguity. The program defines
+  falsifiable sub-claims, discriminating controls, operational variables, and an
+  artificial-agent protocol for testing self-indexed causal provenance.
 keywords:
   - causal self-model
   - constraint computation

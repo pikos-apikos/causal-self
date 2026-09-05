@@ -128,11 +128,11 @@ $$
 
 where:
 
-- \(W\): inferred world state;
-- \(B\): bodily state;
-- \(M\): memory and context;
-- \(S\): self-relative or perspectival state;
-- \(A\): possible or current action.
+- $W$: inferred world state;
+- $B$: bodily state;
+- $M$: memory and context;
+- $S$: self-relative or perspectival state;
+- $A$: possible or current action.
 
 The resulting percept need not be a fixed point. A biological system may move
 among transient, metastable attractors while continuously receiving new input.
@@ -180,14 +180,14 @@ dynamics.
 
 ## 5. Agency as a causal filter
 
-Suppose an observed world change \(\Delta W\) could have many causes:
+Suppose an observed world change $\Delta W$ could have many causes:
 
 $$
 C=\{c_1,c_2,\ldots,c_n\}.
 $$
 
 Without knowledge of the agent's own action, causal uncertainty
-\(H(C\mid\Delta W)\) may be high. If the agent also knows what it intended,
+$H(C\mid\Delta W)$ may be high. If the agent also knows what it intended,
 which action it issued, what consequences it expected, and what resources it
 controlled, then under suitable conditions:
 
@@ -312,23 +312,35 @@ is not a claim of biological equivalence.
 
 ## 9. The central interaction prediction
 
-Let \(A\) represent environmental ambiguity and \(\epsilon\) represent
-corruption of self/causal integrity. Measure an inference-cost vector:
+Let $A$ represent environmental ambiguity and $\epsilon$ represent corruption
+of self/causal integrity. Record an inference-cost vector:
 
 $$
-\operatorname{Cost}=
+\mathbf{K}=
 (T_{\text{recover}},H,N_{\text{verification}},N_{\text{revisions}},
 E,P_{\text{failure}}).
 $$
 
-The main prediction is not merely that ambiguity is costly or that
-self-corruption is costly. It is a positive interaction, qualitatively:
+Because a vector has no intrinsic scalar ordering, the experiment must
+preregister one scalar primary outcome $J$ (for example, recovery steps) or a
+fully specified scalar composite derived from $\mathbf{K}$. Let $A_H,A_L$
+denote high and low ambiguity, and let $\epsilon_C,\epsilon_I$ denote corrupted
+and intact causal-self integrity. The main prediction is the positive
+difference-in-differences interaction:
 
 $$
 \boxed{
-\frac{\partial^2 \operatorname{Cost}}
-{\partial A\,\partial\epsilon}>0
+\Delta_I=
+[J(A_H,\epsilon_C)-J(A_H,\epsilon_I)]
+-[J(A_L,\epsilon_C)-J(A_L,\epsilon_I)]>0
 }.
+$$
+
+If $A$ and $\epsilon$ are instead continuously varied and $J$ is smooth, the
+corresponding local prediction is
+
+$$
+\frac{\partial^2 J}{\partial A\,\partial\epsilon}>0.
 $$
 
 When the environment is easy, corruption of the self-model may matter little.

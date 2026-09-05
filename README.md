@@ -30,11 +30,14 @@ The proposal connects four levels without treating them as identical:
 4. agency as causal provenance that narrows the hypothesis space.
 
 The central falsifiable prediction is an interaction between environmental
-ambiguity \(A\) and corruption of causal-self integrity \(\epsilon\):
+ambiguity $A$ and corruption of causal-self integrity $\epsilon$. Let $J$ be a
+preregistered scalar inference-cost measure; let $H/L$ denote high/low
+ambiguity and $C/I$ corrupted/intact causal-self integrity:
 
 $$
-\frac{\partial^2 \operatorname{Cost}}
-{\partial A\,\partial \epsilon} > 0
+\Delta_I=
+[J(A_H,\epsilon_C)-J(A_H,\epsilon_I)]
+-[J(A_L,\epsilon_C)-J(A_L,\epsilon_I)]>0
 $$
 
 When the environment is easy, a damaged causal self-model may add little cost.

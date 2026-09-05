@@ -2,8 +2,7 @@
 
 **Constraint computation, causal self-models, and the geometry of inference.**
 
-> Intelligence may depend not only on computing over state, but on constructing
-> the constraints that make state identifiable.
+> Intelligence depends on the structure that makes distinctions possible.
 
 ## Status
 
@@ -43,7 +42,16 @@ $$
 When the environment is easy, a damaged causal self-model may add little cost.
 As ambiguity increases, causal integrity should become increasingly valuable.
 
-Read the full note: **[Who Is the Viewer?](RESEARCH_NOTE.md)**
+## Research program
+
+- **[Who Is the Viewer?](RESEARCH_NOTE.md)** develops the framework.
+- **[Falsifiable hypotheses](HYPOTHESES.md)** separates the claim from its
+  strongest null models.
+- **[Related work](RELATED_WORK.md)** identifies the nearest prior ideas and the
+  boundary of the proposed contribution.
+- **[Artificial-agent protocol v0.1](protocols/artificial-agent-v0.1.md)**
+  operationalizes ambiguity, causal-self corruption, and inference cost in a
+  simulated software repository.
 
 ## Seven working principles
 

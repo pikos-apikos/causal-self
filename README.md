@@ -2,7 +2,7 @@
 
 **Constraint computation, causal self-models, and the geometry of inference.**
 
-> Intelligence depends on the structure that makes distinctions possible.
+> Intelligence may depend on the structure that makes distinctions possible.
 
 ## Status
 

@@ -406,7 +406,7 @@ than merely descriptive metadata.
 
 ## One-line thesis
 
-> **Intelligence depends on the structure that makes distinctions possible.**
+> **Intelligence may depend on the structure that makes distinctions possible.**
 
 The original philosophical question remains:
 

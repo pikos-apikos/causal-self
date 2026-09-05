@@ -14,6 +14,7 @@ Its purpose is to prevent a new vocabulary from hiding an old mechanism.
 | Sensorimotor accounts | Perception depends on structured relations between action and sensory change. | This supports treating perspective as an enacted constraint rather than an inner spectator. It does not establish the proposed artificial-agent interaction. |
 | Active inference | Perception and action can be formulated as inference under a generative model. | The current experiment isolates a narrower question: whether self-indexed causal variables add value beyond a matched generic model. |
 | World models and Dyna | Learned transition models support prediction, planning, and action. | These are strong null models. If generic transition prediction matches the causal-self arm, the result belongs here. |
+| Self-modeling agents | An explicit self-model can track a world model's prediction errors and guide exploration. | This is a direct artificial-agent precedent. The present proposal instead tests persistent ownership and provenance during ambiguous causal reconstruction. |
 | Body ownership | Multisensory consistency and conflict alter the attribution of a body or limb to oneself. | The artificial "rubber-hand" perturbation borrows the experimental logic while making no claim of biological equivalence. |
 | Computational provenance | Provenance models represent entities, activities, agents, and derivation relations. | This project asks whether provenance improves online inference and control, rather than serving only audit, interchange, or retrospective explanation. |
 
@@ -81,13 +82,16 @@ causal distinctions available to the system.
    <https://doi.org/10.1145/122344.122377>
 7. David Ha and Jürgen Schmidhuber, “World Models,” 2018.
    <https://arxiv.org/abs/1803.10122>
-8. Manos Tsakiris, “My Body in the Brain: A Neurocognitive Model of Body
+8. Nick Haber, Damian Mrowca, Li Fei-Fei, and Daniel L. K. Yamins, “Learning to
+   Play with Intrinsically-Motivated Self-Aware Agents,” 2018.
+   <https://arxiv.org/abs/1802.07442>
+9. Manos Tsakiris, “My Body in the Brain: A Neurocognitive Model of Body
    Ownership,” *Neuropsychologia* 48(3), 2010, pp. 703–712.
    <https://doi.org/10.1016/j.neuropsychologia.2009.09.034>
-9. Tim Lebo et al., “PROV-O: The PROV Ontology,” W3C Recommendation, 2013.
+10. Tim Lebo et al., “PROV-O: The PROV Ontology,” W3C Recommendation, 2013.
    <https://www.w3.org/TR/prov-o/>
 
-The next literature pass should cover recent agent-state, audit-trail, and
-multi-agent provenance systems using the same standard: a work belongs here
-only when its mechanism or control condition is close enough to change the
-experimental design.
+The next literature pass should cover phenomenal self-model theory and recent
+LLM agent-state, self-monitoring, audit-trail, and multi-agent provenance
+systems. A work belongs here only when its mechanism or control condition is
+close enough to change the experimental design.
